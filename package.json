@@ -1,12 +1,13 @@
 {
   "name": "arithmetic.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple javascript arithmetic operations",
+  "main": "dist/index.js",
   "private": true,
   "scripts": {
     "build": "tsc",
     "lint": "tslint --project tsconfig.json",
+    "install": "npm run build",
     "start": "echo \"npm start is not implemented.\"",
     "test": "jest"
   },
@@ -14,13 +15,19 @@
     "type": "git",
     "url": "git+https://github.com/JDTheRipperPC/arithmetic.js.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "TypeScript",
+    "javascript",
+    "mathematics",
+    "arithmetic operators",
+    "arithmetic operations"
+  ],
+  "author": "JD The Ripper PC",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JDTheRipperPC/arithmetic.js/issues"
   },
-  "homepage": "https://github.com/JDTheRipperPC/arithmetic.js#readme",
+  "homepage": "https://github.com/JDTheRipperPC/arithmetic.js",
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "jest": "^24.8.0",
